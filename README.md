@@ -250,9 +250,7 @@ Medication: Prescriptions, Medication Lists
 
 <div align="center">
 
-**Medical Document Analyzer v2.0** — Production-ready OCR + AI for healthcare  
+**Medical Document Analyzer** — Production-ready OCR + AI for healthcare  
 Built with ❤️ for better medical document processing
-
-⭐ ***Star if you find it useful!***
 
 </div>
