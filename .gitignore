@@ -53,6 +53,10 @@ data/raw/*.pdf
 models/**/*.pkl
 models/**/*.pth
 models/**/*.pt
+models/**/*.safetensors
+models/**/checkpoint-*/
+models/**/*.bin
+models/**/*.msgpack
 
 # Logs
 logs/

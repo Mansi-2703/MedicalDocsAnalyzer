@@ -113,7 +113,12 @@ pip install -r requirements.txt
 cp .env.example .env
 # Edit .env and add your GEMINI_API_KEY
 
-# 4. Start the API Server
+# 4. Download Pre-trained Models
+The NER and classifier models are stored locally but excluded from GitHub due to size.
+They are automatically loaded when you start the server.
+To retrain the classifier: python training/retrain_classifier.py
+
+# 5. Start the API Server
 python -m uvicorn src.api.fastapi_app:app --reload --port 8000
 ```
 
