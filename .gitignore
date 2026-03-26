@@ -1,0 +1,73 @@
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+config.local.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.sublime-project
+*.sublime-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter & IPython
+.ipynb_checkpoints/
+*.ipynb
+
+# Data & Models (keep folder structure, ignore large files)
+data/raw/*.jpg
+data/raw/*.png
+data/raw/*.pdf
+models/**/*.pkl
+models/**/*.pth
+models/**/*.pt
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build artifacts
+*.whl
+*.tar.gz
